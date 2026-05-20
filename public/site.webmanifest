@@ -1,0 +1,23 @@
+{
+  "name": "AfriSell",
+  "short_name": "AfriSell",
+  "description": "La super app africaine tout-en-un.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050705",
+  "theme_color": "#050705",
+  "lang": "fr-CD",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/afrissel-icon.jpeg",
+      "sizes": "1250x1250",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
