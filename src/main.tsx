@@ -10,7 +10,7 @@ const apps = [
     image: '/biashara.jpeg',
   },
   {
-    name: 'AfriSell Market',
+    name: 'AfriZia Market',
     tag: 'Commerce groupe',
     text: 'Catalogue, prix village et achat communautaire.',
     image: '/afrimarket.jpeg',
@@ -143,7 +143,7 @@ function DemoPhoneScreen({ screen }: { screen: DemoScreen }) {
   if (screen.id === 'market') {
     return (
       <div className="demo-screen market-demo" key={screen.id}>
-        <img src="/afrimarket.jpeg" alt="AfriSell Market" className="demo-logo-mark" />
+        <img src="/afrimarket.jpeg" alt="AfriZia Market" className="demo-logo-mark" />
         <div className="market-search">Rechercher sur le Market...</div>
         <div className="product-grid">
           {[
@@ -206,7 +206,7 @@ function DemoPhoneScreen({ screen }: { screen: DemoScreen }) {
         {[
           ['Mama Africa Tex', 'Votre offre groupe est prete', '2m'],
           ['EcoSun Energie', 'Kit solaire disponible', '12m'],
-          ['Support AfriSell', 'Paiement confirme', '1h'],
+          ['Support AfriZia', 'Paiement confirme', '1h'],
         ].map(([name, message, time]) => (
           <div className="chat-row" key={name}>
             <span>{name.slice(0, 1)}</span>
@@ -248,15 +248,15 @@ function WaitlistPage({ onBack }: { onBack: () => void }) {
 
       <nav className="nav">
         <button onClick={onBack} className="brand brand-button">
-          <img src="/afrissel-icon.jpeg" alt="AfriSell" />
-          <span>AfriSell</span>
+          <img src="/afrizia-icon.jpeg" alt="AfriZia" />
+          <span>AfriZia</span>
         </button>
         <button onClick={onBack} className="secondary-action nav-back">Retour au site</button>
       </nav>
 
       <section className="waitlist-hero">
         <div className="waitlist-card">
-          <img src="/afrissel-logo.jpeg" alt="AfriSell" />
+          <img src="/afrizia-logo.jpeg" alt="AfriZia" />
           <p className="eyebrow">Notre ecosysteme</p>
           <h1>Notre ecosysteme est encore en developpement.</h1>
           <p className="lead">
@@ -304,8 +304,8 @@ function App() {
 
       <nav className="nav">
         <a href="#hero" className="brand">
-          <img src="/afrissel-icon.jpeg" alt="AfriSell" />
-          <span>AfriSell</span>
+          <img src="/afrizia-icon.jpeg" alt="AfriZia" />
+          <span>AfriZia</span>
         </a>
         <div className="nav-links">
           <a href="#ecosystem">Nos apps</a>
@@ -317,7 +317,7 @@ function App() {
 
       <section id="hero" className="hero">
         <div className="hero-media" aria-hidden="true">
-          <img src="/afrissel-logo.jpeg" alt="" className="hero-logo" />
+        <img src="/afrizia-logo.jpeg" alt="" className="hero-logo" />
           <div className="orbit orbit-one" />
           <div className="orbit orbit-two" />
           <div className="signal-line line-one" />
@@ -328,7 +328,7 @@ function App() {
           <p className="eyebrow">La super app africaine</p>
           <h1>Tout-en-un pour vendre, payer, discuter et grandir.</h1>
           <p className="lead">
-            AfriSell relie commerce social, wallet, messagerie et services du quotidien dans un ecosysteme fluide,
+            AfriZia relie commerce social, wallet, messagerie et services du quotidien dans un ecosysteme fluide,
             pense pour les realites africaines et les reseaux instables.
           </p>
           <div className="hero-actions">
@@ -340,9 +340,9 @@ function App() {
         <div className="phone-preview">
           <div className="phone-notch" />
           <div className="phone-screen">
-            <img src="/afrissel-logo.jpeg" alt="AfriSell app" />
+          <img src="/afrizia-logo.jpeg" alt="AfriZia app" />
             <div>
-              <span>AfriSell OS</span>
+              <span>AfriZia OS</span>
               <strong>Nos apps connectees</strong>
             </div>
             <div className="mini-grid">
@@ -366,7 +366,7 @@ function App() {
       <section className="immersive-lab">
         <div className="lab-copy">
           <p className="eyebrow">Demo immersive</p>
-          <h2>L ecosysteme AfriSell comme si tu l avais deja en main.</h2>
+          <h2>L ecosysteme AfriZia comme si tu l avais deja en main.</h2>
           <p>
             Navigue entre les experiences cles de l app : discovery, market, paiement et chat. Le site montre le
             parcours reel qu un utilisateur peut vivre dans la super app.
@@ -416,7 +416,7 @@ function App() {
 
       <section className="section split-section">
         <div className="section-heading">
-          <p className="eyebrow">Pourquoi AfriSell</p>
+          <p className="eyebrow">Pourquoi AfriZia</p>
           <h2>Une seule interface pour des usages qui etaient disperses.</h2>
         </div>
         <div className="problem-list">
@@ -434,14 +434,14 @@ function App() {
           <p className="eyebrow">Ecosysteme complet</p>
           <h2>Chaque app a son role. Ensemble, elles creent un OS de services.</h2>
           <p>
-            AfriSell ne se limite pas au commerce : l ecosysteme relie apprentissage, sante, travail, mobilite,
+            AfriZia ne se limite pas au commerce : l ecosysteme relie apprentissage, sante, travail, mobilite,
             immobilier, conversation et paiement.
           </p>
         </div>
         <div className="orbit-map">
           <div className="orbit-core">
-            <img src="/afrissel-icon.jpeg" alt="AfriSell" />
-            <strong>AfriSell</strong>
+            <img src="/afrizia-icon.jpeg" alt="AfriZia" />
+            <strong>AfriZia</strong>
           </div>
           {apps.map((app, index) => (
             <div key={app.name} className={`orbit-node node-${index + 1}`}>
@@ -527,19 +527,19 @@ function App() {
       </section>
 
       <section id="contact" className="cta">
-        <img src="/afrissel-icon.jpeg" alt="" />
+        <img src="/afrizia-icon.jpeg" alt="" />
         <div>
           <p className="eyebrow">Pret pour le futur</p>
-          <h2>AfriSell connecte les usages, pas seulement les ecrans.</h2>
+          <h2>AfriZia connecte les usages, pas seulement les ecrans.</h2>
         </div>
         <a href="mailto:contact@afrissel.app" className="primary-action">Contacter l equipe</a>
       </section>
 
       <footer className="footer">
         <div className="footer-brand">
-          <img src="/afrissel-logo.jpeg" alt="AfriSell" />
+          <img src="/afrizia-logo.jpeg" alt="AfriZia" />
           <div>
-            <strong>AfriSell</strong>
+            <strong>AfriZia</strong>
             <p>La super app africaine, tout-en-un.</p>
           </div>
         </div>
@@ -555,7 +555,7 @@ function App() {
           <div>
             <h3>Nos apps</h3>
             <span>ABC Discovery</span>
-            <span>AfriSell Market</span>
+            <span>AfriZia Market</span>
             <span>afrisPay</span>
             <span>AfriChat</span>
             <span>AfriSchool</span>
@@ -572,7 +572,7 @@ function App() {
         </div>
 
         <div className="footer-bottom">
-          <span>© 2026 AfriSell. Tous droits reserves.</span>
+          <span>© 2026 AfriZia. Tous droits reserves.</span>
           <span>Commerce social • Paiement • Conversation • Services</span>
         </div>
       </footer>

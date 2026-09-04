@@ -1,6 +1,6 @@
 {
-  "name": "AfriSell",
-  "short_name": "AfriSell",
+  "name": "AfriZia",
+  "short_name": "AfriZia",
   "description": "La super app africaine tout-en-un.",
   "start_url": "/",
   "display": "standalone",
@@ -14,7 +14,7 @@
       "type": "image/png"
     },
     {
-      "src": "/afrissel-icon.jpeg",
+      "src": "/afrizia-icon.jpeg",
       "sizes": "1250x1250",
       "type": "image/jpeg",
       "purpose": "any maskable"
